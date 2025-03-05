@@ -1,0 +1,12 @@
+.animate-typing {
+    border-right: 2px solid white;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
